@@ -2699,11 +2699,4 @@ msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?c
 
 
 
-
-
-
-
-
-
-
-client.login('احم');
+client.login(process.env.BOT_TOKEN);
